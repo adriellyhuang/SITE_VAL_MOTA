@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: #1111;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor-wf);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+button {
+  border: none;
+}
+
+.img-bg {
+  background: url(../imagens/imgfundo.png) no-repeat center;
+  height: 500px;
+  margin-bottom: 120px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(#fff2aa, hsl(37, 100%, 84%));
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  color: var(--cor-v1);
+  max-width: max-content;
+  text-transform: uppercase;
+}

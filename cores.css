@@ -1,0 +1,33 @@
+:root {
+  --cor-v0: #1a3f3d;
+  --cor-v1: #3b9791;
+  --cor-v2: #50d1c8;
+  --cor-v3: #79dfd8;
+  --cor-a: hsl(37, 100%, 84%);
+  --cor-w: #fff;
+  --cor-wf: #e1fffd;
+}
+
+.cor-v1 {
+  color: var(--cor-v1);
+}
+
+.cor-v2 {
+  color: var(--cor-v2);
+}
+
+.cor-a {
+  color: var(--cor-a);
+}
+
+.cor-w {
+  color: var(--cor-w);
+}
+
+.cor-v0 {
+  color: var(--cor-v0);
+}
+
+.cor-v3 {
+  color: var(--cor-v3);
+}

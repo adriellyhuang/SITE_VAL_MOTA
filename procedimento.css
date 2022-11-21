@@ -1,0 +1,42 @@
+.procedimento {
+    padding-top: 120px;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.procedimento ul {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    overflow-x: auto;
+    padding: 0px 20px 20px 20px;
+    gap: 40px;
+}
+
+.procedimento li {
+    min-width: 280px;
+    background-color: var(--cor-v1);
+    border-radius: 12px;
+}
+
+.procedimento ul li a p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.procedimento img {
+    margin-bottom: 12px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.procedimento a p {
+    margin: 0 auto;
+
+    margin-bottom: 12px;
+}
+
+.procedimento button {
+    margin-bottom: 12px;
+}
